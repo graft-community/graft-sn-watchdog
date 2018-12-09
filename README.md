@@ -1,7 +1,7 @@
 # Graft-Alpha-Watchdog
 Graft SN alpha3 Watchdog/Reset
 
-cd ~/supernode
+cd ~
 
 git clone https://github.com/graft-community/graft-sn-watchdog
 
