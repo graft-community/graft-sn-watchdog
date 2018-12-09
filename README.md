@@ -2,9 +2,11 @@
 Graft SN alpha3 Watchdog/Reset
 
 cd ~/supernode
+
 git clone https://github.com/graft-community/graft-sn-watchdog
 
 cd graft-sn-watchdog
+
 sudo chmod +x gn.sh once in folder
 sudo chmod +x gs.sh once in folder
 
