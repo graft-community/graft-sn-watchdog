@@ -20,5 +20,5 @@ These can be run inside seperate TMUX sessions or panes although graftnoded is s
 
 Then run python3 snwatchdog.py inside the folder, once both above .sh scripts are loaded.
 
-Currently the snwatchdog script looks for only 1 sn "your own" in the sn list and resets both graft instances 
-	if this occurs
+Currently the snwatchdog script now looks for less than 5 SN's in the sn list and resets both graft instances 
+	if this occurs.
