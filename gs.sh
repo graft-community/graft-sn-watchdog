@@ -10,7 +10,7 @@ while true; do
                                 break
                         fi
                 done
-                #killall -9 graft_server > /dev/null 2>&1 # Warning this will kill graft_server inside each hour
+                #killall -9 supernode > /dev/null 2>&1 # Warning this will kill graft_server inside each hour
         fi
         sleep 5
 done
