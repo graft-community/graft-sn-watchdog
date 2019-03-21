@@ -1,5 +1,5 @@
 # Graft-Alpha-Watchdog
-Graft SN alpha3 Watchdog/Reset
+Graft SN Watchdog/Reset
 
 cd ~
 
