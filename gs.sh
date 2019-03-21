@@ -2,11 +2,11 @@
 #!/bin/bash
 
 while true; do
-        if [ ! `pgrep graft_server` ]; then
+        if [ ! `pgrep supernode` ]; then
                 ~/Supernode/supernode &
                 for ((i=0; i<600; i+=5)); do
                         sleep 5
-                        if [ ! `pgrep graft_server` ]; then
+                        if [ ! `pgrep supernode` ]; then
                                 break
                         fi
                 done
