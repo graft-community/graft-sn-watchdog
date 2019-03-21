@@ -3,7 +3,7 @@
 
 while true; do
         if [ ! `pgrep graftnoded` ]; then
-                ~/supernode/BUILD/bin/graftnoded --testnet --detach &
+                ~/Graftnetwork/graftnoded --detach &
                 for ((i=0; i<600; i+=5)); do
                         sleep 5
                         if [ ! `pgrep graftnoded` ]; then
