@@ -22,4 +22,5 @@ Then run python3 snwatchdog.py inside the folder, once both above .sh scripts ar
 
 Currently the snwatchdog script now looks for less than 5 SN's in the sn list and resets both graft instances 
 	if this occurs.
+	
 *** Please note: Reset is currently disabled by default and version and status checking is assumed you have Deb Community Build or bash command will error out, without correct path set. ***
